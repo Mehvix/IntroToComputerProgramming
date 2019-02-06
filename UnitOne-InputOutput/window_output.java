@@ -11,6 +11,6 @@ public class window_output
    {  
       int number =	new Random().nextInt((999999999 - 100000000) + 1) + 100000000;
       ImageIcon picture = new ImageIcon("checkEm.jpg");
-      JOptionPane.showMessageDialog(null, number, "Check 'em:", JOptionPane.ERROR_MESSAGE);
+      JOptionPane.showMessageDialog(null, number, "Check 'em:", JOptionPane.ERROR_MESSAGE, picture);
    }
 }
