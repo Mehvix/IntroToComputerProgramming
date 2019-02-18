@@ -5,6 +5,7 @@ Demonstrates how 'input' works in java
 
 import javax.swing.*;  //For JOptionPane
 import java.util.*;  //For getting data from console
+import java.printwriter;
 
 public class dialog_input
 {  
@@ -23,7 +24,7 @@ public class dialog_input
       
       age = JOptionPane.showInputDialog(null, "If you don't mind, how old are you?", "Question 2", 3);
 
-      String[] choices = {"yellow", "orange", "red", "pink", "purple", "blue", "green", "brown", "black"};
-      String input = (String) JOptionPane.showInputDialog(null, "What's your favourite color?", "Qustion 3", JOptionPane.QUESTION_MESSAGE, null, choices, choices[1]); // Initial choice
+      String[] choices = {"Yellow", "Orange", "Red", "Pink", "Purple", "Blue", "Green", "Brown", "Black"};
+      fav_color = (String) JOptionPane.showInputDialog(null, "What's your favourite color?", "Qustion 3", 3, null, choices, choices[1]);
    }
 }
