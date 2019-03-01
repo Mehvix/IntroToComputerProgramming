@@ -1,6 +1,6 @@
 /*
 Programmer: Max Vogel
-Goal:       This program asks 
+Goal:       This program adds two integers that the user chooses
 Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit2_Arithmetic
 */
 
@@ -8,11 +8,15 @@ import javax.swing.*;
 public class math1
 {
       public static void main(String[] args)
-      {
-         String num1, num2;
-         
+      {         
          //Gets numbers to add from user
-         num1 = JOptionPane.showInputDialog("Chose the first number that you want to add:");
+         int num1 = Integer.parseInt( JOptionPane.showInputDialog("Chose the first number that you want to add:"));
          System.out.println("User chose " + num1);
-      }  //end of main
+         
+         int num2 = Integer.parseInt( JOptionPane.showInputDialog("Chose the second number that you want to add:"));
+         System.out.println("User chose " + num2);
+
+         JOptionPane.showMessageDialog(null, "The sum of your numbers is " + (num1 + num2));
+
+      }//end of main
 }//end of class
