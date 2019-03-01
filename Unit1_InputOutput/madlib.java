@@ -1,8 +1,8 @@
 /*
 Programmer: Max Vogel
-Goal: Educate gradeschool students on what a noun, verb, and adjective are.
-Buzz URL: https://middleton.agilixbuzz.com/student/109599350/activity/f4678f6a76be45ab847e519702ca49e7
-Latest Version: https://github.com/Mehvix/IntroToComputerProgramming/tree/master/UnitOne-InputOutput
+Goal:       Educate gradeschool students on what a noun, verb, and adjective are.
+Buzz URL:   https://middleton.agilixbuzz.com/student/109599350/activity/f4678f6a76be45ab847e519702ca49e7
+Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit1_InputOutput
 */
 
 import javax.swing.*;

@@ -1,6 +1,7 @@
 /*
 Programmer: Max Vogel
-Demonstrates how 'input' works in java
+Goal:       Demonstrates how 'input' works in java
+Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit1_InputOutput
 */
 
 import javax.swing.*;  //For JOptionPane

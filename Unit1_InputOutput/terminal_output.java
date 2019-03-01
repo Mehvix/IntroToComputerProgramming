@@ -1,6 +1,7 @@
 /*
 Programmer: Max Vogel
-Demonstrates how 'output' works in java
+Goal:       Demonstrates how 'output' works in java
+Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit1_InputOutput
 */
 
 public class terminal_output
