@@ -6,7 +6,7 @@ Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Uni
 
 import javax.swing.*;  //For JOptionPane
 import java.util.*;  //For getting data from console
-import java.printwriter;
+//import java.printwriter;
 
 public class dialog_input
 {  

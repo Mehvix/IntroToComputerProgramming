@@ -19,7 +19,7 @@ public class math_operations_testing
          
          String words = "The answer is ";
          
-         System.out.print();
+         System.out.print(num3/num2);
          
       }//end of main
 }//end of class
