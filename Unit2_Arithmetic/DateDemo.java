@@ -18,7 +18,7 @@ public class DateDemo {
       JOptionPane.showMessageDialog(null,today);
       
      // I can use one of the  basic formatting tags:
-     JOptionPane.showMessageDialog(null, String.format("%tA",today);
+     JOptionPane.showMessageDialog(null, String.format("%tA",today));
      
       // I can decide how I want the date to get printed out by using  the SimpleDateFormat class.
       // Notice the letters E, M, d, y, h, a, z?  This is from the list in your packet (Simple Date Format codes)
