@@ -14,15 +14,14 @@ public class dialog_average
         }
         catch(NumberFormatException e) {
         	JOptionPane.showMessageDialog(null, input + " isn't a number!");
-        	check(JOptionPane.showInputDialog(null, "Re-enter a number"));
+        	check(JOptionPane.showInputDialog(null, "Re-enter a value, this time a number"));
         }
 		return x;
 	         
 	}
 	public static void main (String[] args)
 	{
-		//declare variables:  3 ints, a String, a double (for the average)
-		String input;
+		//declare variables:  3 intss, a double (for the average)
 		int num1 = 0, num2 = 0, num3 = 0; //give initial values to numbers!
 		double avg;
 		final double NUM_TESTS = 3.0;  //this is  a constant. user won't change, programmer will
@@ -63,7 +62,7 @@ public class dialog_average
 
 4.  Specifically write how you can fix this Run-Time error and write
 the specific code below.  Include line numbers from the program.
-
+Verify that the input is a number. This is done in the check method (Line 10)
 
 5.  If you haven't already done so, fix the run-time errors in your own
 program and test it under every circumstance.  Have your teammates
