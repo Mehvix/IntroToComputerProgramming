@@ -47,5 +47,6 @@ public class terminal_numbers
          if(choice == 4 || choice == 5){
             System.out.println("[4]: " + (num1/num2));
          }
+      input.close();
       }//end of main
 }//end of class
