@@ -21,7 +21,7 @@ public class dialog_average
 	}
 	public static void main (String[] args)
 	{
-		//declare variables:  3 intss, a double (for the average)
+		//declare variables:  3 ints, a double (for the average)
 		int num1 = 0, num2 = 0, num3 = 0; //give initial values to numbers!
 		double avg;
 		final double NUM_TESTS = 3.0;  //this is  a constant. user won't change, programmer will
