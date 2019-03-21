@@ -23,7 +23,7 @@ public class register_recipt
 	        x = Integer.parseInt(input);
         }
         catch(NumberFormatException e) {
-        	x = check(error(input));
+        	x = check(error(input)); 
         }
 		
 		if (x < 0) {
@@ -44,7 +44,6 @@ public class register_recipt
 		subtotal = (piphones_ordered * piphones_cost) + (swindles_ordered * swindles_cost);
 		tax = Math.round((subtotal * TAX_RATE) * 100.0) / 100.0;  // Rounds number to nearest hundredth place
 		total = Math.round((tax + subtotal) * 100.0) / 100.0;
-
 		
 		JOptionPane.showMessageDialog(null, String.format(
         		"Number of PiPhones:   %s%n \n"
