@@ -20,7 +20,7 @@ public class terminal_numbers
       
          // Set up for all variables
          int num1, num2;
-         boolean product, sum, difference, quotient;
+         //boolean difference;
          
          
          // Get number from keyboard and store it as num1

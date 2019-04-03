@@ -5,7 +5,7 @@ Buzz URL:
 Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit2_Arithmetic
 */
 
-import javax.swing.*;
+
 public class math_operations
 {
       public static void main(String[] args)

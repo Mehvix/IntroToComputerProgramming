@@ -16,7 +16,7 @@ public class gui_numbers
       public static void main(String[] args)
       {         
          // Set up for all variables
-         double num1, num2, avg;
+         double num1, num2;
          String input, choice;
          final int NUMBER_VALUES = 2;  // change this is you're using something other than 2 numbers
          
