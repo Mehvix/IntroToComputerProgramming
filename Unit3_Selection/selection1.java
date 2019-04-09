@@ -3,11 +3,8 @@ package Unit3_Selection;
 /*
 Programmer: Max Vogel
 Buzz URL:   
-Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit2_Arithmetic
-Goal:       Calculate the tip based 
-			off of the price of the 
-			meal and the given tip 
-			percent.
+Github:     https://github.com/Mehvix/IntroToComputerProgramming/tree/master/Unit3_Selection
+Goal:       Find elegibility of driver's license and casino
 */
 
 import javax.swing.*; // Allows JOptionpane
@@ -15,8 +12,8 @@ import javax.swing.*; // Allows JOptionpane
 public class selection1 {
 	
 	public static String error(String input) {
-		JOptionPane.showMessageDialog(null, input + " isn't a valid number!");
-    	return JOptionPane.showInputDialog(null, "Re-enter your age, this time a number");
+		JOptionPane.showMessageDialog(null, input + " isn't a valid age!");
+    	return JOptionPane.showInputDialog(null, "Re-enter your age");
 	}
 
 	public static int check(String input) {
@@ -38,11 +35,23 @@ public class selection1 {
 	public static void main(String[] args) {
 
 		int age = check(JOptionPane.showInputDialog("How old are you?"));
+		final int VOTE_AGE = 18;
+		final int SCHOOLVOTE_AGE_MAX = 16;
+		final int SCHOOLVOTE_AGE_MIN = 13;
+
 		
-		if (age >= 16) {
-			JOptionPane.showMessageDialog(null, "You're old enough for your licenese!");
+		if (age >= VOTE_AGE) {
+			JOptionPane.showMessageDialog(null, "You're old enough to vote in the presidential election!\nHowever, you're too old to vote for Student Senate at MHS.");
+		} else if (age >= SCHOOLVOTE_AGE_MIN && age < SCHOOLVOTE_AGE_MAX){
+			int wait = VOTE_AGE - age;
+						
+			JOptionPane.showMessageDialog(null, "Sorry, but you're too young to vote in the presidential election!\nYou need to wait another " + wait + " year(s).\nHowever, you are elegible to vote for student senate at MHS!");
+
+
 		} else {
-			JOptionPane.showMessageDialog(null, "Sorry, but you're too young for your licenese!");
+			int wait = VOTE_AGE - age;
+			int school_wait = SCHOOLVOTE_AGE_MIN - age;
+			JOptionPane.showMessageDialog(null, "Sorry, but you're too young to vote in the presidential election!\nYou need to wait another " + wait + " year(s).\nAlso, you are elegible to vote for student senate at MHS in " + school_wait + " years");
 
 		}
 	}
