@@ -106,6 +106,8 @@ public class three_in_one {
 	}
 	
 	public static void main(String[] args) {
+		pin();
+		dice();
 		counting();
 	}
 
